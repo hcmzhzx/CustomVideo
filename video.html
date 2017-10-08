@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no">
+	<title>定制视频</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/video.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+<div id="video" class="flexitemv">
+	<div class="flex center heder">
+		<a href="javascript:;" class="zh zh-jtz"></a>
+		<h1 class="flexitem center">定制视频</h1>
+	</div>
+	<div class="flex center company">
+		<a href="javascript:;" class="flex center zh zh-wbt showu"></a>
+		<h2 class="flexitem center">国珍</h2>
+		<!--<div class="flexitem center text_title">-->
+			<!--<span class="flexitem center content">国珍</span>-->
+            <!--<span class="zh zh-jtx icon"></span>-->
+			<!--<ul>-->
+				<!--<li>国珍</li>-->
+				<!--<li>星期1</li>-->
+				<!--<li>星期2</li>-->
+				<!--<li>星期3</li>-->
+			<!--</ul>-->
+		<!--</div>-->
+		<!--<a href="javascript:;" id="qrcode" class="flex zh zh-qrcode icon"></a>-->
+	</div>
+	<!--end-->
+	<div class="flexitem center swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="flex center shop_bj">
+					<a href="javascript:;" class="zh zh-shipin play"></a>
+					<!--视频-->
+					<div class="flex center player">
+						<a href="javascript:;" class="flex center zh zh-x closeit"></a>
+						<video src="http://www.runoob.com/try/demo_source/movie.mp4" controls="controls"></video>
+					</div>
+				</div>
+				<div class="trade">
+					<span>国珍一</span>
+					<span class="price">&yen;<em>0.01</em></span>
+				</div>
+			</div>
+			<div class="swiper-slide">
+				<div class="flex center shop_bj">
+					<a href="javascript:;" class="zh zh-shipin play"></a>
+					<div class="flex center player">
+						<a href="javascript:;" class="flex center zh zh-x closeit"></a>
+						<video src="http://www.runoob.com/try/demo_source/movie.mp4" controls="controls"></video>
+					</div>
+				</div>
+				<div class="trade">
+					<span>国珍一</span>
+					<span class="price">&yen;<em>0.01</em></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-->
+	<div class="flex hint">
+		<div class="flexitemv center text">
+			<p>点击可观看视频</p>
+			<p>左右滑动可切换视频</p>
+		</div>
+		<a href="javascript:;" class="flex zh zh-kefu kefu icon"></a>
+	</div>
+	<!--end-->
+	<a href="javascript:;" class="flex center button">就选他了</a>
+	<!--end-->
+	<!--弹窗信息-1-->
+	<form action="" class="flexv center option">
+		<div class="shade"></div>
+		<div class="details">
+			<a href="javascript:;" class="zh zh-x close"></a>
+			<p class="flex center details_ht">填写信息</p>
+				<div class="flex centerv img">
+					<div class="images">
+						<img src="image/ren.png" class="fitimg">
+					</div>
+					<input type="file" accept="image/jpg,image/png,image/jpeg" id="choiseimg">
+					<span>点击上传个人照片</span>
+				</div>
+				<div class="flex centerv name ">
+					<span class="flex centerv">姓 &ensp;名</span>
+					<input class="flexitem" type="text" placeholder="请填写您的姓名">
+				</div>
+				<div class="flex centerv phone ">
+					<span class="flex centerv">手机号</span>
+					<input class="flexitem" type="text" placeholder="请填写您的手机号">
+				</div>
+				<div class="flex centerv wx ">
+					<span class="flex centerv">微信号</span>
+					<input class="flexitem" type="text" placeholder="请填写您的微信号">
+				</div>
+				<p class="hints">支付成功后客服会把您的信息替换到选择的视频，并添加您的微信把视频发送给您</p>
+				<a href="javascript:;" class="flex center pay">支付 &yen; <em>11.00</em>立即拥有</a>
+			<!--弹窗提示-2-->
+		<div id="error"></div>
+		</div>
+		<!--关注与客服-->
+		<div class="flexv centerv attention follow">
+			<a href="javascript:;" class="zh zh-x close"></a>
+			<p class="hd">关注我们</p>
+			<div class="qr">
+				<img src="http://s.jiathis.com/qrcode.php?url=http://.zhzxj.cn/">
+			</div>
+			<p class="gz">长按二维码关注</p>
+		</div>
+		<!--<div class="flexv centerv attention service">
+			<a href="javascript:;" class="zh zh-x close"></a>
+			<p class="hd">联系客服</p>
+			<div class="qr">
+				<img src="http://s.jiathis.com/qrcode.php?url=http://.zhzxj.cn/">
+			</div>
+			<p class="gz">长按二维码识别添加</p>
+		</div>-->
+	</form>
+</div>
+<!--侧拉菜单-->
+<div id="ucenter" class="flex ucenter">
+	<div class="flexv leftside">
+		<div class="flexv center user">
+			<div class="flex head"></div>
+			<h3 class="flex center cname">小胡</h3>
+		</div>
+		<div class="links">
+			<a href="javascript:;" class="flex centerv">
+				<i class="flex center zh zh-gm"></i>
+				<span class="flexitem">购买记录</span>
+			</a>
+			<a href="javascript:;" class="flex centerv">
+				<i class="flex center zh zh-tg" style="font-size: 1.58rem;"></i>
+				<span class="flexitem">推广记录</span>
+			</a>
+			<a href="javascript:;" class="flex centerv">
+				<i class="flex center zh zh-zh"></i>
+				<span class="flexitem">账户管理</span>
+			</a>
+			<a href="javascript:;" class="flex centerv">
+				<i class="flex center zh zh-tx"></i>
+				<span class="flexitem">提现管理</span>
+			</a>
+		</div>
+	</div>
+	<div class="flexitem rightside closeit"></div>
+</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.min.js"></script>
+<script type="text/javascript">
+/*    $('.text_title>span').click(function (e) {
+        $('.text_title ul').toggle();
+        e.stopPropagation();
+        $('body').click(function () {
+            $('.text_title>ul').hide();
+        })
+    });
+    $('.text_title>ul>li').click(function () {
+        $('.content').text(($(this).text()));
+    }); */
+//  视频轮播
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		effect: 'coverflow',
+		grabCursor: true,
+		centeredSlides: true,
+		loop: true,
+		slidesPerView: 'auto',
+        coverflow: {
+            rotate: 10,
+            stretch: -80,
+            depth: 400,
+            modifier: 1,
+            slideShadows: false
+        },
+        onTouchMove: function(swiper){
+            $(".player video").trigger('pause');
+            $('.shop_bj>div').removeClass('show');
+        }
+    });
+//  视频
+    $(".play").click(function () {
+		$(this).nextAll().find('video').get(0).play();
+		$(this).nextAll().addClass('show');
+    });
+    // 关闭
+    $(".closeit").click(function () {
+        $(".player video").trigger('pause');
+        $('.shop_bj>div').removeClass('show');
+    });
+	//  双击暂停
+	$(".player").dblclick(function () {
+        var x = $(this).find('video').get(0).paused;
+		if(x){
+            $(this).find('video').trigger('play');
+        }else{
+            $(this).find('video').trigger('pause');
+        }
+	});
+//	选他
+	$('.button').click(function (){
+	    $(".details").show();$(".follow").hide();$(".service").hide();
+		$('.option').removeClass('hide').addClass('show')
+	});
+//	关闭效果
+	$('.close').click(function (){
+	    $(this).parents('.option').addClass('hide').removeClass('show');
+	});
+//	二维码
+	/*$("#qrcode").click(function () {
+        $(".follow").show();$(".details").hide();$(".service").hide();
+		$(".option").removeClass('hide').addClass('show');
+	});*/
+//	客服
+	$('.kefu').click(function () {
+        $(".service").hide();$(".details").hide();$(".follow").show();
+        $(".option").removeClass('hide').addClass('show');
+    });
+//	验证
+	$(".pay").click(function () {
+	    var $this = $(this), name = $('.name').find('input'), text1 = name.attr('placeholder'), value1 = name.val();
+       	var phone = $('.phone').find('input'), text2 = phone.attr('placeholder'), value2 = phone.val();
+       	var wx = $('.wx').find('input'), text3 = wx.attr('placeholder'), value3 = wx.val();
+
+        if(value1 == text1 || value1 == ""){
+			$("#error").text(text1+"！");
+			$("#error").fadeIn().fadeOut(2000);
+			name.focus();
+			return false;
+		}
+        if(value2 == text2 || value2 == ""){
+            $("#error").text(text2+"！");
+            $("#error").fadeIn().fadeOut(2000);
+            phone.focus();
+            return false;
+        } else{
+            var reg = /^[1][3-8][0-9]{9}$/; //只允许使用数字-空格等
+            if(!reg.test(value2)){
+                $("#error").text("手机号码格式错误！");
+                $("#error").fadeIn().fadeOut(1500);
+                phone.focus();
+                return false;
+            }
+		}
+        if(value3 == text3 || value3 == ""){
+            $("#error").text(text3+"！");
+            $("#error").fadeIn().fadeOut(2000);
+		 	  wx.focus();
+            return false;
+        }
+    });
+//	上传头像
+	$("#choiseimg").change(function (event) {
+		var file = event.target.files[0];
+        if(file){
+            var reader = new FileReader();
+            reader.onload=function (event) {
+				var image = event.target.result;
+                $(".images>img").attr('src',image);
+            };
+            reader.readAsDataURL(file);
+		}
+		$(".img>span").text("点击更换");
+    });
+//  侧拉个人中心
+	$('.showu').click(function () {
+		$('body').addClass('showu');
+	});
+	$('#ucenter .closeit').click(function () {
+		$('body').removeClass('showu');
+	});
+</script>
+</html>
