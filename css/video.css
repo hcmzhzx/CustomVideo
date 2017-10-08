@@ -45,10 +45,10 @@ html,body{width:100%; height:100%;}
 /**************************/
 #video .swiper-container {width: 100%;}
 #video .swiper-slide {background-position: center;background-size: cover;width: 11.5rem;/*height: 18rem;*/background: #fff;border-radius: 5px;overflow: hidden;box-shadow: 0 0 8px rgba(0,0,0,.5);}
-#video .swiper-slide .shop_bj{width:100%;height:18rem;background: url("../image/shop_bj.jpg") no-repeat;background-size:100%; }
+#video .swiper-slide .shop_bj{width:100%;height:18rem;background: url("../image/shop_bj.jpg") no-repeat;background-size:100%;position: relative; }
 #video .swiper-slide .shop_bj a{display: block; font-size: 3rem;color:#fff;border-radius: 50%;}
 
-#video .swiper-slide .shop_bj .player{position: fixed;top: 0;left: 0;width: 100%;height:18rem;background: #000;transform: scale(0);z-index: -1;visibility: hidden;transition: transform 0.4s ease-in-out;}
+#video .swiper-slide .shop_bj .player{position:absolute;top: 0;left: 0;width: 100%;height:18rem;background: #000;transform: scale(0);z-index: -1;visibility: hidden;transition: transform 0.4s ease-in-out;}
 #video .swiper-slide .shop_bj .player.show{z-index:100;visibility: visible;transform: scale(1);}
 #video .swiper-slide .shop_bj .player a.closeit{position: absolute;top: 5px;right: 5px;font-size: 1rem;color:#fff;z-index:9;}
 #video .swiper-slide .shop_bj .player video{width: 100%;height: 100%;}
