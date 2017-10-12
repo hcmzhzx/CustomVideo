@@ -50,8 +50,8 @@ html,body{width:100%; height:100%;-webkit-user-select:none;user-select:none;over
 
 #video .swiper-slide .shop_bj .player{position:fixed;top: 0;left: 0;width: 100%;height:18rem;background: #000;transform: scale(0);z-index: -1;visibility: hidden;transition: transform 0.4s ease-in-out;overflow:hidden;}
 #video .swiper-slide .shop_bj .player.show{z-index:100;visibility: visible;transform: scale(1);}
-#video .swiper-slide .shop_bj .player a.closeit{position:absolute;top: 5px;right: 5px;font-size: 1rem;color:#fff;z-index:50;}
-#video .swiper-slide .shop_bj .player video{width:100%;height:102%;object-fit:fill;z-index:1;}
+#video .swiper-slide .shop_bj .player a.closeit{position:absolute;top: 5px;right: 5px;font-size: 1rem;color:#fff;z-index:10;}
+#video .swiper-slide .shop_bj .player video{width:100%;height:100%;object-fit:fill;position:relative;}
 #video .swiper-slide .trade{height:2rem;padding:2px 10px;font-size: 1rem;color:#333; display: flex;align-items:center; justify-content:space-between;}
 #video .swiper-slide .trade .price{color:#ffb500;}
 /*******************************/
