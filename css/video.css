@@ -28,7 +28,7 @@ textarea {font: inherit;border: 0;outline: 0;color: inherit;box-sizing: border-b
 .end{-webkit-box-align: end; -webkit-box-pack: end;}
 .fitimg{width:100%;height:100%;}
 /*************************************************************************/
-html,body{width:100%; height:100%;}
+html,body{width:100%; height:100%;-webkit-user-select:none;user-select:none;overflow:hidden;}
 #video {width:100%;height:100%; background: url("../image/video_bj.jpg") no-repeat 0 100%; background-size:100%;transition: transform 0.2s ease-in-out;}
 #video .heder{width: 100%;height:3.23rem;background: #343434;padding: 0 20px;color:#fff;}
 #video .heder a{display: block;font-size: 1.5rem;}
@@ -45,13 +45,13 @@ html,body{width:100%; height:100%;}
 /**************************/
 #video .swiper-container {width: 100%;}
 #video .swiper-slide {background-position: center;background-size: cover;width: 11.5rem;/*height: 18rem;*/background: #fff;border-radius: 5px;overflow: hidden;box-shadow: 0 0 8px rgba(0,0,0,.5);}
-#video .swiper-slide .shop_bj{width:100%;height:18rem;background: url("../image/shop_bj.jpg") no-repeat;background-size:100%;position: relative; }
+#video .swiper-slide .shop_bj{width:100%;height:18rem;background: url("../image/shop_bj.jpg") no-repeat;background-size:100%;}
 #video .swiper-slide .shop_bj a{display: block; font-size: 3rem;color:#fff;border-radius: 50%;}
 
-#video .swiper-slide .shop_bj .player{position:absolute;top: 0;left: 0;width: 100%;height:18rem;background: #000;transform: scale(0);z-index: -1;visibility: hidden;transition: transform 0.4s ease-in-out;}
+#video .swiper-slide .shop_bj .player{position:fixed;top: 0;left: 0;width: 100%;height:18rem;background: #000;transform: scale(0);z-index: -1;visibility: hidden;transition: transform 0.4s ease-in-out;overflow:hidden;}
 #video .swiper-slide .shop_bj .player.show{z-index:100;visibility: visible;transform: scale(1);}
-#video .swiper-slide .shop_bj .player a.closeit{position: absolute;top: 5px;right: 5px;font-size: 1rem;color:#fff;z-index:9;}
-#video .swiper-slide .shop_bj .player video{width: 100%;height: 100%;}
+#video .swiper-slide .shop_bj .player a.closeit{position:absolute;top: 5px;right: 5px;font-size: 1rem;color:#fff;z-index:9;}
+#video .swiper-slide .shop_bj .player video{width:100%;height:100%;}
 #video .swiper-slide .trade{height:2rem;padding:0 10px;font-size: 1rem;color:#333; display: flex;align-items:center; justify-content:space-between;}
 #video .swiper-slide .trade .price{color:#ffb500;}
 /*******************************/
@@ -75,7 +75,7 @@ html,body{width:100%; height:100%;}
 #video .option .details form .img{padding-left: 10px;}
 #video .option .details .img{height:4rem;position: relative;}
 #video .option .details .img .images{position: relative;overflow: hidden;}
-#video .option .details .img .images input{position: absolute;top: 0;left: 0;width: 100%;height:100%;border: none;background:none;opacity: 0;z-index: 1}
+#video .option .details .img .images input{position:absolute;top: 0;left: 0;width: 100%;height:100%;border: none;background:none;opacity: 0;z-index: 1}
 #choiseimg{position:absolute;top:0;left:0;width:100%;opacity: 0;}
 #video .option .details .img>div{width:3rem;height:3rem;border-radius:50%;box-shadow: 0px 0px 0px 1px #d7d7d7;}
 #video .option .details .img>div img{width:100%;}
