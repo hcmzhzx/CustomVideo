@@ -64,7 +64,7 @@
 				<div class="flex center shop_bj">
 					<a href="javascript:;" class="zh zh-shipin play"></a>
 					<div class="flex center player">
-						<a href="javascript:;" class="flex center zh zh-x closeit">丽姐</a>
+						<a href="javascript:;" class="flex center zh zh-x closeit"></a>
 						<video src="http://7xvl2z.com1.z0.glb.clouddn.com/nigg2.mp4" controls webkit-playsinline x-webkit-airplay playsinline x5-playsinline x5-video-player-type x5-video-player-fullscreen preload poster></video><!--style="object-fit:fill"-->
 					</div>
 				</div>
@@ -201,7 +201,7 @@
     $(".play").click(function () {
         $(this).nextAll().addClass('show');
 		$(this).nextAll().find('video').get(0).play();
-		$('h2').text($('video').css('z-index'))
+		$('h2').text($('video').css('top'))
     });
     // 关闭
     $(".closeit").click(function () {
